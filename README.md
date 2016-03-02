@@ -1,21 +1,27 @@
 # electron-boilerplate
 
-# Installation
+# 安装
 
-1. `git clone https://github.com/John-Lin/electron-boilerplate.git`
-2. `cd electron-boilerplate`
-3. `npm install`
+```
+cnpm install jquery --save
+cnpm install handlebars handlebars-layouts mkdirp --save-dev
+cnpm install electron-prebuilt --save-dev
+```
 
-# Build the pages html
+# 编译运行
 
-```sh
+``` sh
 npm run build
 ```
 
-# Run the app
-```sh
+# 运行
+
+``` sh
 npm run start
 ```
+
+
+
 
 # Screenshots
 ![electron-app](https://rawgit.com/John-Lin/electron-boilerplate/master/screenshots/electron.png)
